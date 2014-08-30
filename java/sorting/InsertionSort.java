@@ -10,7 +10,7 @@ import java.util.List;
  * @author ferris
  *
  */
-public class InsertionSort implements Sort{
+public class InsertionSort implements Sort {
 
 	
 	
@@ -26,7 +26,7 @@ public class InsertionSort implements Sort{
 
 	@Override
 	public <T extends Comparable<T>> void sort(T[] items) {
-		if(items != null && items.length > 0) {
+		if(items != null && items.length > 1) {
 			for(int i = 0; i < items.length; i++) {
 				insert(items, i, items[i]);
 			}
