@@ -1,4 +1,4 @@
-package sortingTest;
+package sorting;
 
 public class SortingBaseTest {
 	

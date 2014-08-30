@@ -16,12 +16,12 @@ package string;
  * @author ferris
  *
  */
-public class IterativeLevenshtein implements Levenshtein {
+public class RecursiveLevenshtein implements Levenshtein {
 
 	
 	public int calculate(String inputA, String inputB) {
 		if(inputA != null && inputB != null) {
-			calcDistance(inputA, inputA.length(), inputB, inputB.length());
+			return calcDistance(inputA, inputA.length(), inputB, inputB.length());
 		}
 		return -1;
 	}
